@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Clicker Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    #counter {
+      font-size: 36px;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .upgrade {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .upgrade:hover {
+      background-color: #45a049;
+    }
+    .category-title {
+      font-size: 24px;
+      margin: 20px 0 10px;
+    }
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Clicker</h1>
+  <div id="counter">0</div>
+  <button id="clickButton">Click Me!</button>
+  <h2>Upgrades</h2>
+  <div id="upgrades"></div>
+
+  <script src="game.js"></script>
+</body>
+</html>
